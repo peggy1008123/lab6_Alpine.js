@@ -48,3 +48,19 @@ h1 strong {
 img.about {
     opacity: 0.5;
 }
+
+button{
+    background: #212431;
+    color: #EAE8FF;
+    border: 2px solid #EAE8FF;
+    border-radius: 50px;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #EAE8FF;
+    color: #212431;
+}

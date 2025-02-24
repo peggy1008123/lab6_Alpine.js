@@ -1,7 +1,11 @@
 ---
 layout: layout.liquid
-title: 11ty Boilerplate
+title: Lab6_Alpine.js
 ---
 
-<h1>Yet Another 11ty <strong>Boilerplate</strong></h1>
-<img alt="pine" src="/images/pine.png" width="50" />
+<h1><strong>Name Generator</strong></h1>
+
+<div x-data="nameGenerator">
+    <button @click="getRandomName()">Click to generate a name</button>
+    <h1 x-text="selectedName"></h1>
+</div>
